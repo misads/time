@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TableLayout android:layout_width="240dp"
+            android:layout_height="240dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji1"
+                    android:id="@+id/imageButton1"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji2"
+                    android:id="@+id/imageButton2"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji3"
+                    android:id="@+id/imageButton3"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji4"
+                    android:id="@+id/imageButton4"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji5"
+                    android:id="@+id/imageButton5"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji6"
+                    android:id="@+id/imageButton6"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji7"
+                    android:id="@+id/imageButton7"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji8"
+                    android:id="@+id/imageButton8"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji9"
+                    android:id="@+id/imageButton9"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji10"
+                    android:id="@+id/imageButton10"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji11"
+                    android:id="@+id/imageButton11"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji12"
+                    android:id="@+id/imageButton12"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji13"
+                    android:id="@+id/imageButton13"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji14"
+                    android:id="@+id/imageButton14"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji15"
+                    android:id="@+id/imageButton15"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/emoji16"
+                    android:id="@+id/imageButton16"
+                    android:background="@android:color/background_light"
+                    android:elevation="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+        </TableLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

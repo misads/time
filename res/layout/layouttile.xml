@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <Space
+        android:layout_width="25dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="学习JAVA"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/textTile1"
+        android:layout_weight="7"
+        android:gravity="center_vertical|center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="1.3小时"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/textTile2"
+        android:layout_weight="6"
+        android:gravity="center_vertical|center"
+        android:textSize="18sp"
+        android:paddingRight="5dp" />
+
+    <TextView
+        android:text="20:18:55"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/textTile3"
+        android:layout_weight="6"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:paddingLeft="15dp" />
+
+    <Space
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

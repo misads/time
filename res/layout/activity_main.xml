@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/background_dark"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/less"
+            android:id="@+id/imageLess"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Time"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textTitle"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/clk"
+            android:id="@+id/imageMore" />
+
+    </LinearLayout>
+
+    <com.example.administrator.time.myViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.example.administrator.time.myViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/llAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="#00000000"
+                android:src="@drawable/add2"
+                android:layout_weight="55" />
+
+            <TextView
+                android:id="@+id/tvAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="添加"
+                android:textColor="@android:color/background_dark"
+                android:layout_weight="30" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPlans"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivPlans"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="#00000000"
+                android:src="@drawable/plan"
+                android:layout_weight="55" />
+
+            <TextView
+                android:id="@+id/tvPlans"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="计划"
+                android:textColor="@android:color/background_dark"
+                android:layout_weight="30" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llData"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivData"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="#00000000"
+                android:src="@drawable/data"
+                android:layout_weight="55" />
+
+            <TextView
+                android:id="@+id/tvData"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="数据"
+                android:textColor="@android:color/background_dark"
+                android:layout_weight="30" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="#00000000"
+                android:src="@drawable/set"
+                android:layout_weight="55" />
+
+            <TextView
+                android:id="@+id/tvSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="设置"
+                android:textColor="@android:color/background_dark"
+                android:layout_weight="30" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

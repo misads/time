@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TIME</string>
+    <string-array name="seasons">
+        <item>春</item>
+        <item>夏</item>
+        <item>秋</item>
+        <item>冬</item>
+        <item>冬2</item>
+        <item>冬3</item>
+        <item>冬4</item>
+    </string-array>
+    <string-array name="days">
+        <item>1天</item>
+        <item>2天</item>
+        <item>3天</item>
+        <item>5天</item>
+        <item>7天</item>
+        <item>10天</item>
+        <item>15天</item>
+        <item>30天</item>
+        <item>60天</item>
+         <item>100天</item>
+        <item>200天</item>
+        <item>365天</item>
+        <item>每天</item>
+        <item>每周</item>
+        <item>每月</item>
+    </string-array>
+    <string-array name="timeunits">
+        <item>小时</item>
+        <item>分钟</item>
+    </string-array>
+    <string-array name="xscales">
+        <item>按天显示</item>
+        <item>按周显示</item>
+        <item>按月显示</item>
+    </string-array>
+    <string-array name="yscales">
+        <item>1h</item>
+        <item>2h</item>
+        <item>4h</item>
+        <item>8h</item>
+        <item>15h</item>
+        <item>30h</item>
+        <item>50h</item>
+        <item>100h</item>
+        <item>自动</item>
+    </string-array>
+</resources>

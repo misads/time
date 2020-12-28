@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <Space
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="学习JAVA"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/textItem1"
+        android:layout_weight="10"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:text="2.0小时"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/textItem2"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:text="20:18"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/textItem3"
+        android:layout_weight="6"
+        android:gravity="center_vertical"
+        android:textSize="14sp" />
+
+    <TextView
+        android:text="09-01"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/textItem4"
+        android:layout_weight="6"
+        android:gravity="center_vertical"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        app:srcCompat="@drawable/emoji1"
+        android:id="@+id/imageItem"
+        android:scaleType="fitCenter" />
+</LinearLayout>

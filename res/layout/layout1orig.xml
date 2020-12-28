@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.time.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="144">
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+            <ListView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/listview2"
+                android:entries="@array/seasons"
+                android:divider="@null"
+                android:layout_weight="1" />
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="55">
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                app:srcCompat="@android:drawable/ic_input_add"
+                android:id="@+id/imageadd"
+                android:layout_weight="55"
+                android:scaleType="fitXY" />
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:text="Category"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/textitem"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_weight="94"
+                android:gravity="center" />
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:text="0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/textnum"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_weight="66"
+                android:gravity="center" />
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/textunit"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_weight="52"
+                android:text="time"
+                android:gravity="center" />
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+            <Button
+                android:text="ok"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/buttonadd"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textSize="18sp"
+                android:layout_weight="60" />
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="329">
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+
+            <ListView
+                android:layout_height="wrap_content"
+                android:entries="@array/seasons"
+                android:divider="@null"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/listView1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="0dp"
+                android:layout_weight="131" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider"
+                />
+
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:divider="@android:drawable/divider_horizontal_textfield"
+                android:layout_weight="196">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="7"
+                        android:id="@+id/button7"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+
+
+                    <Button
+                        android:text="8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button8"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button9"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="?android:attr/listDivider"
+                         />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button4"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button5"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button6"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="?android:attr/listDivider" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button1"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button2"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button3"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="24sp" />
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="?android:attr/listDivider" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button0"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        style="@style/Widget.AppCompat.Button.Borderless" />
+
+                    <Button
+                        android:text="."
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/buttondot"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        style="@style/Widget.AppCompat.Button.Borderless" />
+
+                    <Button
+                        android:text="←"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/buttonreturn"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        style="@style/Widget.AppCompat.Button.Borderless" />
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="?android:attr/listDivider" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/buttonh"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:text="min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/buttonmin"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:text="n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/buttonremark"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:background="@android:drawable/star_on"
+                        android:textAllCaps="false" />
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="?android:attr/listDivider" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/linearLayout"
+            android:layout_weight="65">
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:text="Add"
+                android:layout_width="0dp"
+                android:id="@+id/buttonMenuAdd"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_height="fill_parent"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false" />
+
+            <Button
+                android:text="Browse"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/buttonBrowse"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAllCaps="false"
+                android:textSize="10sp" />
+
+            <Button
+                android:text="Schedule"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/buttonSchedule"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp" />
+
+            <Button
+                android:text="Statistics"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/buttonCount"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAllCaps="false"
+                android:textSize="10sp" />
+
+            <Button
+                android:text="Settings"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/buttonSettings"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAllCaps="false"
+                android:textSize="10sp" />
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
